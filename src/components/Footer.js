@@ -28,7 +28,6 @@ const Footer = () => {
             <RiPassportFill />
           </a>
         </IconContext.Provider>
-        ;
       </div>
     </div>
   );
