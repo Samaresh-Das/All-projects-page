@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+/* @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@500&family=Roboto:ital,wght@1,700&display=swap"); */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Raleway:wght@500&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Marck+Script&family=Raleway:wght@500&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,700&display=swap");
+
+body {
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about {
+  background-color: #002029;
+  top: 60px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root {
+  background-color: #002029;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-me-text {
+  background: linear-gradient(to right, #141e30, #243b55);
+  font-family: "Marck Script", cursive;
+  font-size: 21px;
+  border-image: linear-gradient(to right, #ffe000, #799f0c);
+  border-image-slice: 1;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav {
+  background-color: #22223b;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.git,
+.linkedin {
+  border: 3px solid #06d6a0;
+  border-radius: 50%;
+}
+
+.title {
+  margin: 0 400px;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+.title:hover {
+  background-size: 100% 88%;
+}
+
+.description {
+  min-height: 200px;
+  max-height: 300px;
+}
+
+.card {
+  border: none !important;
+  transition: width 0.5s;
+  transition-timing-function: linear;
+}
+
+.card-title {
+  font-family: "Roboto Slab", serif;
+}
+
+.card-text {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+}
+
+.tags {
+  color: #ffd6a5 !important;
+}
+
+.card:hover {
+  width: 32rem !important;
+  box-shadow: 4px 10px 20px #e3e902;
+}
+
+.card-body {
+  background-color: #151b25 !important;
+}
+
+.code {
+  background-color: #a47e1b;
+}
+
+.code:hover {
+  border: 2px solid #a47e1b !important;
+}
+
+.live {
+  background-color: #40916c;
+}
+
+.live:hover {
+  border: 2px solid #40916c !important;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000814;
 }
