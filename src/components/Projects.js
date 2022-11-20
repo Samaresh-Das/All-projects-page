@@ -39,9 +39,9 @@ const Projects = () => {
   return (
     <Fragment>
       <div className=" text-center mb-4">
-        <h2 className="text-white title">Projects</h2>
+        <h2 className="text-white title ">Projects</h2>
       </div>
-      <div className="d-flex justify-content-around  flex-wrap">
+      <div className="d-flex flex-column flex-md-row justify-content-md-around  flex-md-wrap">
         {allProjects}
       </div>
     </Fragment>

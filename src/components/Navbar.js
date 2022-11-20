@@ -6,21 +6,21 @@ import { IconContext } from "react-icons";
 const Navbar = () => {
   return (
     <Fragment>
-      <nav className="text-bg-dark py-2">
-        <ul className="nav justify-content-center">
-          <li className="nav-item pt-2 mx-2">
+      <nav className="text-bg-dark py-2  ">
+        <ul className="nav justify-content-center ">
+          <li className="nav-item pt-2 mx-2 d-none d-md-block ">
             <IconContext.Provider
               value={{ color: "white", className: "global-class-name" }}
             >
-              <div className="git px-3 py-2">
+              <div className="git px-3 py-2 ">
                 <a href="https://github.com/Samaresh-Das" target="blank">
                   <FiGithub />
                 </a>
               </div>
             </IconContext.Provider>
           </li>
-          <li className="nav-item pt-3 mx-4">Samaresh Das</li>
-          <li className="nav-item pt-2 mx-4">
+          <li className="nav-item pt-md-3 mx-4">Samaresh Das</li>
+          <li className="nav-item pt-2 mx-4 d-none d-md-block">
             <IconContext.Provider
               value={{ color: "white", className: "global-class-name" }}
             >

@@ -5,6 +5,11 @@
 
 body {
   height: 100%;
+  width: 100%;
+}
+
+html {
+  width: 100%;
 }
 
 .about {
@@ -40,15 +45,19 @@ body {
 }
 
 .title {
-  margin: 0 400px;
+  margin: 0px 100px;
   background-image: linear-gradient(to right, #1d976c, #93f9b9);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
   transition: background-size 0.25s ease-in;
+  text-align: center;
 }
 .title:hover {
   background-size: 100% 88%;
+}
+
+@media only screen and (min-width: 768px) {
 }
 
 .description {
@@ -75,9 +84,27 @@ body {
   color: #ffd6a5 !important;
 }
 
-.card:hover {
-  width: 32rem !important;
-  box-shadow: 4px 10px 20px #e3e902;
+@media only screen and (min-width: 768px) {
+  .card:hover {
+    width: 32rem !important;
+    box-shadow: 4px 10px 20px #e3e902;
+  }
+  .title {
+    margin: 0 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    margin: 10px;
+    width: 95% !important;
+  }
+
+  .footer-linkedin,
+  .footer-github,
+  .footer-portfolio {
+    font-size: 15px;
+  }
 }
 
 .card-body {

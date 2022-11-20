@@ -18,13 +18,22 @@ const Footer = () => {
           <a
             href="https://linkedin.com/in/samaresh-das-ab9621212"
             target="blank"
+            className="footer-linkedin"
           >
             <BsLinkedin />
           </a>
-          <a href="https://github.com/Samaresh-Das" target="blank">
+          <a
+            href="https://github.com/Samaresh-Das"
+            target="blank"
+            className="footer-github"
+          >
             <BsGithub />
           </a>
-          <a href="https://samaresh-portfolio.netlify.app/" target="blank">
+          <a
+            href="https://samaresh-portfolio.netlify.app/"
+            target="blank"
+            className="footer-portfolio"
+          >
             <RiPassportFill />
           </a>
         </IconContext.Provider>
