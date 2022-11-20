@@ -6,8 +6,7 @@ import { IconContext } from "react-icons";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="icons d-flex justify-content-evenly pt-3">
-        '
+      <div className="icons d-flex justify-content-around justify-content-md-evenly pt-3">
         <IconContext.Provider
           value={{
             color: "white",
