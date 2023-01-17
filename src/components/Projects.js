@@ -4,7 +4,7 @@ import data from "../ProjectsData";
 const Projects = () => {
   const allProjects = data.map((projects) => (
     <div
-      className="card mt-4 mb-5"
+      className="card rounded-3 mt-4 mb-5"
       style={{ width: "30rem" }}
       key={projects.id}
     >
