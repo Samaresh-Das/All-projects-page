@@ -26,7 +26,7 @@ const Navbar = () => {
             >
               <div className="linkedin px-3 py-2">
                 <a
-                  href="https://linkedin.com/in/samaresh-das-ab9621212"
+                  href="https://www.linkedin.com/in/samaresh-d-ab9621212/"
                   target="blank"
                 >
                   <BsLinkedin />

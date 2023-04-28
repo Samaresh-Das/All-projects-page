@@ -41,6 +41,16 @@ const data = [
   },
   {
     id: 5,
+    image: "/images/7.png",
+    name: "Firebase Authentication React Form",
+    description:
+      "In this app firebase is used for authenticating users using google or normal email password. It is built with vite react and tailwind css.",
+    tags: ["React Js", "Firebase Auth", "OAuth", "Tailwind"],
+    code: "https://github.com/Samaresh-Das/firebase-auth.git",
+    live: "https://firebaseauth-breezeai.netlify.app/",
+  },
+  {
+    id: 6,
     image: "/images/3.png",
     name: "React To-Do List",
     description:
@@ -48,15 +58,6 @@ const data = [
     tags: ["React Js"],
     code: "https://github.com/Samaresh-Das/React-Todo-list.git",
     live: "https://react-todo-list-dlh.pages.dev/",
-  },
-  {
-    id: 6,
-    image: "/images/4.png",
-    name: "TMDB Movie site",
-    description:
-      "It fetches movie and tv list from TMDB api and displays them in a page",
-    tags: ["HTML", "CSS", "JS"],
-    code: "https://github.com/Samaresh-Das/TMDB-movie-api-project.git",
   },
 ];
 

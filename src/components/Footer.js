@@ -15,7 +15,7 @@ const Footer = () => {
           }}
         >
           <a
-            href="https://linkedin.com/in/samaresh-das-ab9621212"
+            href="https://www.linkedin.com/in/samaresh-d-ab9621212/"
             target="blank"
             className="footer-linkedin"
           >
@@ -29,7 +29,7 @@ const Footer = () => {
             <BsGithub />
           </a>
           <a
-            href="https://samaresh-portfolio.netlify.app/"
+            href="https://portfolio-2-tau-sable.vercel.app/"
             target="blank"
             className="footer-portfolio"
           >
